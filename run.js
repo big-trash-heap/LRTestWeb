@@ -1,8 +1,20 @@
-const HTTP = require("http");
+const Net = require("net");
 
-HTTP_SERVER = HTTP.createServer((req, res) => {
+const server = Net.createServer((socket) => {
+    
+    socket.on("error", (error) => {
 
-    res.end("Hello!");
+        console.log(error);
+    });
+
+    socket.on("data", (buffer) => {
+
+        console.log(buffer.toString());
+    });
+
+    console.log("+1");
+    socket.end("Hello");
 });
 
-HTTP_SERVER.listen(80);
+
+server.listen(4571);
