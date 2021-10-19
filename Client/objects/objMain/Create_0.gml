@@ -1,7 +1,4 @@
 
-enum NET_TYPE {
-	CREATE_INST = 15,
-};
 
 var _ip = "127.0.0.1";
 //var _ip = "92.255.77.71";
