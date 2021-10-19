@@ -5,7 +5,6 @@
     {"id":{"name":"request_init_data","path":"scripts/request_init_data/request_init_data.yy",},"order":7,},
     {"id":{"name":"request_ping","path":"scripts/request_ping/request_ping.yy",},"order":9,},
     {"id":{"name":"roomRun","path":"rooms/roomRun/roomRun.yy",},"order":2,},
-    {"id":{"name":"scrNetSocket","path":"scripts/scrNetSocket/scrNetSocket.yy",},"order":0,},
     {"id":{"name":"urlParams","path":"scripts/urlParams/urlParams.yy",},"order":1,},
     {"id":{"name":"init_requests","path":"scripts/init_requests/init_requests.yy",},"order":3,},
     {"id":{"name":"Script13","path":"scripts/Script13/Script13.yy",},"order":1,},
