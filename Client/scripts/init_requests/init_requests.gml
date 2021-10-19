@@ -1,5 +1,5 @@
 //Инициализируем
-globalvar _requests, _host, _data;
+//globalvar _requests, _host, _data;
 _host=undefined;
 _data={};
 _requests=ds_map_create();
